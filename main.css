@@ -12,9 +12,9 @@
 
   .left-panel {
     width: 30%;
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
     padding: 20px;
-    background-color: #38b000;
+    background-color: #7cb518;
   }
 
   h2 {
@@ -42,32 +42,71 @@
 
   .right-panel {
     width: 70%;
-    border: 1px solid #000000;
-    padding: 20px;
+    /* border: 1px solid #000000; */
+    padding: 50px;
     margin: 0%; 
     box-sizing: border-box;
   }
 
   .personal-info {
     display: flex;
+    font-size: 30px;
+    margin-bottom: 20px;
   }
   
   .column {
     flex: 1;
     padding: 50px;
   }
+
+  .display-flex {
+    flex: 1;
+  }
+
+  .display-flex li {
+    border-bottom: none;
+  
+  }
+
+  .column h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+  }
+
+  .column p {
+    font-size: 30px;
+  }
   
   ul {
     list-style: none;
+    padding: 0;
   }
   
   li {
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     box-sizing: border-box;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid grey;
   
   }
 
   li:last-child {
     border-bottom: none;
   }
+
+  .section-wrapper {
+    margin: 50px;
+  }
+
+  .title {
+  padding: 10px 0px 10px 0px;
+  border-bottom: 1px solid black;
+  }
+
+  .wrapper {
+    display: flex;
+  }
+
+
+
+
