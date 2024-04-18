@@ -14,18 +14,30 @@
     width: 30%;
     border: 1px solid #000000;
     padding: 20px;
+    background-color: #38b000;
+  }
+
+  h2 {
+    text-transform: uppercase;
   }
 
   .box {
     border: 1px solid #000000;
     padding: 20px;
     margin: 10px 0px 10px 0px;
+    /* text-align: center; */
   }
 
-  .profile-img img {
-    width: 300px; /* Adjust the width as needed */
+  .profile-img  {
+    width: 50%;
+    margin: auto;
     height: auto; /* This will maintain the aspect ratio */
-    justify-self: center;
+    
+
+  }
+  .profile-img img {
+    width: 100%;
+    border-radius: 50%;
   }
 
   .right-panel {
