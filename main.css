@@ -105,6 +105,15 @@
 
   .wrapper {
     display: flex;
+    padding-right: 150px;
+  }
+
+  .beruf li {
+    list-style:disc;
+  }
+
+  .beruf h3 {
+    margin-bottom: 10px;
   }
 
 
